@@ -37,7 +37,6 @@ def single_blog(request, blog_id):
     print(blog)
     print(id)
     return render(request, "single_blog.html", {
-        "id": id,
         "blog": blog
     })
         

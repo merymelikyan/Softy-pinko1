@@ -33,7 +33,7 @@ def receive_message(request):
 
 # from django.shortcuts import render, redirect
 # from .forms import UserMessageForm
-from django.shortcuts import render, redirect
+#from django.shortcuts import render, redirect
 # from .forms import UserMessageForm
 
 # def send_message(request):

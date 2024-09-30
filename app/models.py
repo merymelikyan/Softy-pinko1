@@ -24,7 +24,6 @@ class FooterText(models.Model):
         verbose_name_plural = "Footer Text"
 
 
-
 class TreeBlocks(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField(max_length=255)
@@ -136,7 +135,6 @@ class Blog(models.Model):
     description = models.TextField()
     created_at =models.DateTimeField(default=timezone.now)
 
-
     def __str__(self):
         return self.title
 
@@ -156,5 +154,3 @@ class Socials(models.Model):
         verbose_name = "Social"
         verbose_name_plural = "Socials"
 
-
- 
